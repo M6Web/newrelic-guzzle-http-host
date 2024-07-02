@@ -11,6 +11,7 @@ namespace newrelic\Guzzle6;
 
 use Psr\Http\Message\RequestInterface;
 
+var_dump(function_exists('newrelic\\Guzzle6\\middleware'));
 if (!function_exists('newrelic\\Guzzle6\\middleware')) {
     function middleware(callable $handler)
     {
